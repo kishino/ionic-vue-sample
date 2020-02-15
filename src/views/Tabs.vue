@@ -36,7 +36,7 @@
 import Home from '../views/Home'
 import News from '../views/News'
 
-import { home, menu, notifications } from 'ionicons/icons'
+import { home, menu, notifications, camera } from 'ionicons/icons'
 import { addIcons } from 'ionicons'
 addIcons({
   'ios-home': home.ios,
@@ -44,7 +44,9 @@ addIcons({
   'ios-menu': menu.ios,
   'md-menu': menu.md,
   'ios-notifications': notifications.ios,
-  'md-notifications': notifications.md
+  'md-notifications': notifications.md,
+  'ios-camera': camera.ios,
+  'md-camera': camera.md
 })
 export default {
   components: { Home, News }
